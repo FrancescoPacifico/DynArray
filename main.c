@@ -14,9 +14,9 @@ int main() {
         dynamic_array = appendLast(dynamic_array, i);
     }
     printDynArray(dynamic_array);
-    /*printf("\n\n//////////////////////////////\n\n");
+    printf("\n\n//////////////////////////////\n\n");
     dynamic_array = append(dynamic_array, 0, 99);
-    printDynArray(dynamic_array);*/
+    printDynArray(dynamic_array);
     printf("\n\n//////////////////////////////\n\n");
     dynamic_array = pop(dynamic_array, dynamic_array.n - 1);
     printDynArray(dynamic_array);
